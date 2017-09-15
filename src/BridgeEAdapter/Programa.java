@@ -9,7 +9,7 @@ public class Programa {
 	{
 		
 		Mapa mapa = new GoogleMaps();
-		mapa.devolveMapa("rua da putaria");
+		mapa.devolveMapa("rua da garoa");
 		
 		
 		/**

@@ -2,12 +2,17 @@ package flyweight;
 
 import java.util.List;
 
-import org.jfugue.Player;
-
 public class Piano {
 	public void toca(List<Nota> notas)
 	{
-		Player player = new Player();
+		
+		/***
+		 * Para executar fazer download da lib em http://www.jfugue.org/download.html
+		 * e colocar no build path
+		 * Lib não encontrada no Maven
+		 */
+/*		
+ 		Player player = new Player();
 		
 		StringBuilder musica = new StringBuilder();
 		
@@ -15,6 +20,6 @@ public class Piano {
 		
 		System.out.println(musica);
 		
-		player.play(musica.toString());
+		player.play(musica.toString());*/
 	}
 }
